@@ -2,3 +2,20 @@
     margin: 0;
     padding: 0;
 }
+#topten {
+    float: left;
+    width: 15%;
+    background-color: aqua;
+}
+#movies {
+    float: right;
+    width: 85%;
+    background-color: blueviolet;
+}
+body>header{
+    background-color: crimson;
+}
+body>footer{
+    background-color: gold;
+    clear: both;
+}
