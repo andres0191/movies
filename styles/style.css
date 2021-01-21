@@ -29,3 +29,11 @@ section#topten a {
     margin-bottom: 3px;
     width: 80%;
 }
+/* queremos que no aparezca la info de la movie de forma inicial */
+div.movie {
+	display: none;
+}
+/* usamos esta clase para mostrar la movie */
+div.unhide {
+	display: inline;
+}
