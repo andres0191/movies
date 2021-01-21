@@ -2,27 +2,32 @@
     margin: 0;
     padding: 0;
 }
-section#topten {
+
+
+
+#topten {
     float: left;
     width: 15%;
     background-color: aqua;
     text-align: center;
 }
+
 #movies {
     float: right;
     width: 85%;
     background-color: blueviolet;
 }
-body>header#header_list {
+
+#header_list {
     background-color: crimson;
 }
 
-body>footer {
+footer {
     background-color: gold;
     clear: both;
 }
 
-section#topten a {
+#topten a {
     display: inline-block;
     background-color: red;
     border: 1px solid blue;
@@ -30,12 +35,4 @@ section#topten a {
     padding: 6px;
     margin-bottom: 3px;
     width: 80%;
-}
-/* queremos que no aparezca la info de la movie de forma inicial */
-div.movie {
-	display: none;
-}
-/* usamos esta clase para mostrar la movie */
-div.unhide {
-	display: inline;
 }
