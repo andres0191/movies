@@ -13,13 +13,15 @@ section#topten {
     width: 85%;
     background-color: blueviolet;
 }
-body>header{
+body>header#header_list {
     background-color: crimson;
 }
-body>footer{
+
+body>footer {
     background-color: gold;
     clear: both;
 }
+
 section#topten a {
     display: inline-block;
     background-color: red;
