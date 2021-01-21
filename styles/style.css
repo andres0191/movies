@@ -3,7 +3,25 @@
     padding: 0;
 }
 
+.header_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+header nav div ul {
+    display: flex;
+}
+
+header nav div ul li {
+    margin: 20px;
+    list-style: none;
+}
+
+header nav div ul li a {
+    text-decoration: none;
+    color: black;
+}
 
 #topten {
     float: left;
